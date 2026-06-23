@@ -1,13 +1,20 @@
 
 
 
-
+import Nidhi from "./nidhi"
 
 function App() {
  
 
   return (
-    <h1> HELLO vite NIDHI</h1>
+    
+    <>
+
+    <Nidhi/>
+     <h1> my name is nidhi </h1>
+
+      </>
+
   )
 }
 

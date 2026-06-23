@@ -1,0 +1,53 @@
+<!--   DOM: Document Object Model
+
+Introduction -----
+
+DOM (Document Object Model) ek programming interface hai, jo
+HTML document ko tree structure me represent karta hai. 
+Is structure ke through JavaScript web page ke elements ko access,
+ modify aur manipulate kar sakta hai.
+
+structure of a DOM----
+HTML document ko browser ek hierarchical tree me convert karta hai jisme har element ek node hota hai.
+
+Example structure:
+Document → html → body → elements (h1, p, div, etc.)
+
+
+Types of Nodes------
+Element Node – HTML tags jaise <div>, <p>, <h1>
+Text Node – Element ke andar ka text
+Attribute Node – id, class, style jaise attributes
+
+
+DOM ka Use------
+Web page ke content ko dynamically change karna
+CSS styles modify karna
+User events handle karna
+New elements create aur delete karna
+
+
+-->
+ <!-- press ! and enter for the html boiler code -->
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>DOM learning</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color :#fff;
+        }
+    </style>
+</head>
+<body class="bg-black" >
+    <div>
+        <h1 id="title" class="heading"> DOM learning </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, officiis!</p>
+
+    </div>
+    
+</body>
+</html>

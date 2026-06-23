@@ -1,11 +1,14 @@
 
+import Nidhi from './Nidhi'
 
 
+// function lo , or function ke ander HTML return kardo, or mai us hTML ko render kara dunga 
 function App() {
   return (
-    <h1>
-      HELLO WORLD
-    </h1>
+    <>
+    <Nidhi/>
+   <h1>chai and React </h1>
+   </>
   );
 }
 
